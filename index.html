@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rumo Contabilidade</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div class="min-h-screen bg-white">
+    <!-- Hero Section -->
+    <header class="relative h-screen">
+      <div class="absolute inset-0">
+        <img
+          src="images/modernoffice.png"
+          alt="Modern office"
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 bg-black/60"></div>
+      </div>
+      
+      <div class="relative h-full flex flex-col">
+        <nav class="container mx-auto px-6 py-6">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+              <img
+                src="images/logo.png"
+                alt="Logo"
+                class="w-30 h-12 object-cover rounded-lg"
+              />
+              <span class="text-white text-xl font-bold">Rumo Contabilidade</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+              <a href="#services" class="text-white hover:text-gray-300">Serviços</a>
+              <a href="#about" class="text-white hover:text-gray-300">Sobre</a>
+              <a href="#testimonials" class="text-white hover:text-gray-300">Depoimentos</a>
+              <a href="#contact" class="text-white hover:text-gray-300">Contato</a>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="flex-1 flex items-center">
+          <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-6xl font-bold text-white max-w-3xl leading-tight">
+              Transformamos Números em Estratégia para o Sucesso Financeiro
+            </h1>
+            <p class="mt-6 text-xl text-gray-200 max-w-2xl">
+              Soluções contábeis personalizadas para impulsionar o crescimento do seu negócio
+            </p>
+            <!-- <button class="mt-8 px-8 py-4 bg-white text-black font-semibold rounded-lg hover:bg-gray-100 transition-colors flex items-center">
+              Solicitar Consulta
+              <i data-lucide="chevron-right" class="ml-2 h-5 w-5"></i>
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-16">Nossos Serviços</h2>
+        <div class="grid md:grid-cols-3 gap-12">
+          <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <i data-lucide="calculator" class="h-12 w-12 text-black mb-6"></i>
+            <h3 class="text-xl font-semibold mb-4">Consultoria Tributária</h3>
+            <p class="text-gray-600">Otimização fiscal e planejamento tributário estratégico</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <i data-lucide="file-spreadsheet" class="h-12 w-12 text-black mb-6"></i>
+            <h3 class="text-xl font-semibold mb-4">Contabilidade Empresarial</h3>
+            <p class="text-gray-600">Gestão contábil completa para sua empresa</p>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <i data-lucide="users-2" class="h-12 w-12 text-black mb-6"></i>
+            <h3 class="text-xl font-semibold mb-4">Departamento Pessoal</h3>
+            <p class="text-gray-600">Gestão de folha de pagamento e recursos humanos</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+          <div>
+            <h2 class="text-3xl font-bold mb-6">Sobre a Rumo Contabilidade</h2>
+            <p class="text-gray-600 mb-6">
+              Lorem ipsum dolor sit amet. Qui autem repudiandae quo beatae 
+              dolore sit ullam ipsam ut enim corrupti est saepe debitis? E
+              t aliquid numquam sed quod dolores sed sequi quia. 
+            </p>
+            <div class="grid grid-cols-2 gap-6">
+              <div class="flex items-start space-x-4">
+                <i data-lucide="briefcase" class="h-8 w-8 text-black"></i>
+                <div>
+                  <h4 class="font-semibold">15+ Anos</h4>
+                  <p class="text-gray-600 text-sm">de experiência</p>
+                </div>
+              </div>
+              <div class="flex items-start space-x-4">
+                <i data-lucide="users-2" class="h-8 w-8 text-black"></i>
+                <div>
+                  <h4 class="font-semibold">500+</h4>
+                  <p class="text-gray-600 text-sm">clientes satisfeitos</p>
+                </div>
+              </div>
+              <div class="flex items-start space-x-4">
+                <i data-lucide="award" class="h-8 w-8 text-black"></i>
+                <div>
+                  <h4 class="font-semibold">Certificada</h4>
+                  <p class="text-gray-600 text-sm">ISO 9001</p>
+                </div>
+              </div>
+              <div class="flex items-start space-x-4">
+                <i data-lucide="clock" class="h-8 w-8 text-black"></i>
+                <div>
+                  <h4 class="font-semibold">24/7</h4>
+                  <p class="text-gray-600 text-sm">suporte</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img
+              src="images/teammeeting.png"
+              alt="Team meeting"
+              class="rounded-lg shadow-xl"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-16">O Que Nossos Clientes Dizem</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <i data-lucide="message-square" class="h-8 w-8 text-black mb-4"></i>
+            <p class="text-gray-600 mb-6">A Rumo Contabilidade transformou completamente a gestão financeira da minha empresa. Profissionais excepcionais!</p>
+            <div>
+              <p class="font-semibold">Maria Silva</p>
+              <p class="text-gray-500 text-sm">CEO, Tech Solutions</p>
+            </div>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <i data-lucide="message-square" class="h-8 w-8 text-black mb-4"></i>
+            <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet. Qui autem repudiandae quo beatae dolore sit ullam ipsam ut enim corrupti est saepe debitis</p>
+            <div>
+              <p class="font-semibold">João Santos</p>
+              <p class="text-gray-500 text-sm">Diretor, Construtech</p>
+            </div>
+          </div>
+          <div class="bg-white p-8 rounded-lg shadow-lg">
+            <i data-lucide="message-square" class="h-8 w-8 text-black mb-4"></i>
+            <p class="text-gray-600 mb-6">Lorem ipsum dolor sit amet. Qui autem repudiandae quo beatae dolore sit ullam ipsam ut enim corrupti est saepe debitis</p>
+            <div>
+              <p class="font-semibold">Ana Oliveira</p>
+              <p class="text-gray-500 text-sm">CFO, Global Trade</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-16">
+          <div>
+            <h2 class="text-3xl font-bold mb-6">Entre em Contato</h2>
+            <p class="text-gray-600 mb-8">
+              Estamos prontos para ajudar sua empresa a alcançar o próximo nível.
+              Entre em contato conosco hoje mesmo.
+            </p>
+            <div class="space-y-6">
+              <div class="flex items-center space-x-4">
+                <i data-lucide="phone" class="h-6 w-6 text-black"></i>
+                <span>(51) 9999-9999</span>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i data-lucide="mail" class="h-6 w-6 text-black"></i>
+                <span>contato@rumocontabilidade.com.br</span>
+              </div>
+              <div class="flex items-center space-x-4">
+                <i data-lucide="map-pin" class="h-6 w-6 text-black"></i>
+                <span>Santa Cruz do Sul - RS</span>
+              </div>
+            </div>
+          </div>
+          <!-- <form class="space-y-6">
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Nome</label>
+              <input
+                type="text"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Email</label>
+              <input
+                type="email"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-gray-700 mb-2">Mensagem</label>
+              <textarea
+                rows="4"
+                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"
+              ></textarea>
+            </div>
+            <button class="w-full px-8 py-4 bg-black text-white font-semibold rounded-lg hover:bg-gray-900 transition-colors">
+              Enviar Mensagem
+            </button>
+          </form> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-3 gap-8 text-center">
+          <div>
+            <div class="flex items-center justify-center space-x-2 mb-8">
+              <i data-lucide="building-2" class="h-8 w-8"></i>
+              <span class="text-xl font-bold">Rumo Contabilidade</span>
+            </div>
+            <p class="text-gray-400">
+              Soluções contábeis inovadoras para o <br>sucesso do seu negócio.
+            </p>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-4">Serviços</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>Consultoria Tributária</li>
+              <li>Contabilidade Empresarial</li>
+              <li>Departamento Pessoal</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-4">Contato</h3>
+            <ul class="space-y-2 text-gray-400">
+              <li>contato@rumocontabilidade.com.br</li>
+              <li>(51) 9999-9999</li>
+              <li>Santa Cruz do Sul - RS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
+          <p>&copy; 2024 Rumo Contabilidade. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+</body>
+</html>
